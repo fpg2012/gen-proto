@@ -11,7 +11,8 @@ from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
 from torchvision import datasets, transforms, utils
 
-from maskgit import MaskGIT, VQVAE, vqvae_loss
+from maskgit import MaskGIT
+from vqvae import VQVAE, vqvae_loss
 
 
 def default_device() -> str:

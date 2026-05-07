@@ -11,7 +11,8 @@ from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
 from torchvision import datasets, transforms, utils
 
-from diffusion import ConvVAE, DiT, Diffusion, vae_loss
+from diffusion import DiT, Diffusion
+from vae import ConvVAE, vae_loss
 
 
 def default_device() -> str:
